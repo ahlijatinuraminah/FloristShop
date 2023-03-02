@@ -1,0 +1,129 @@
+h1, h2, p {
+    text-align: center;
+}
+.item {
+    display:inline-block; 
+    margin: 10px;
+    text-align: center;
+    background-color: gainsboro;
+    padding: 5px;
+}
+
+
+#judul {
+    box-shadow: 0px 10px 5px rgb(27, 134, 167); 
+    color:aliceblue; 
+    background-color:brown;
+}
+
+#bestseller {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, tr, th, td {
+   border: 1px solid magenta;
+   border-collapse: collapse;
+   color: white;
+   font-family: 'Dosis', sans-serif;
+}
+table {
+    width: 70%;
+    background-color: transparent;
+}
+th {
+    height: 50px;
+    background-color: magenta;
+}
+td {
+    text-align: center;
+    padding:10px;
+}
+h3, p {
+    text-align: center;
+    padding: 5px;
+    color: steelblue;
+}
+body{
+    background-image: url('assets/bg.jpg');
+    background-size: cover;      
+    font-family: 'Send Flowers', cursive;   
+    font-size:larger;       
+}
+
+.portrait{
+    max-width: 100%;
+    max-height: 350px;
+}
+
+@media (max-width: 600px) {
+    *{
+        font-size: 2vw;
+        margin: 2px;
+    }
+}
+.main-header {
+    background-color:rgb(12, 174, 244); 
+    padding-top: 3px; 
+    padding-left: 10px;
+    padding-bottom: 3px; 
+}
+
+.header-info {
+    text-align: left;
+    color:rgb(219, 84, 75);    
+}
+
+.header-info a{
+    padding: 0;
+    text-decoration: none;
+}
+
+.header-info a:hover{
+    background-color: transparent;
+}
+
+footer {
+    background-color:aquamarine;     
+}
+
+.center-footer {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.main-footer { 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.left-footer {
+    margin-right: auto; 
+    margin-left: 40px;
+}
+
+.right-footer {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.info-left {
+    color: black;
+    text-align: left;
+    width: 100%;
+}
+
+.info-right {
+    color: black;
+    text-align: right;
+    width: 100%;
+}
+.info-center {
+    color: black;
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    border-top: 1px solid rgb(146, 168, 133);
+}
+
